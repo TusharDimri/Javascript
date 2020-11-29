@@ -1,0 +1,8 @@
+Create a class Library and Implement the following:-
+
+Constructor must take the BookList as an argument
+getBookList()
+issueBook(bookName, user)
+returnBook(bookName, user)
+
+Everthing should be done in the console.

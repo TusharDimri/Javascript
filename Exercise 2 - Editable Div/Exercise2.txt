@@ -1,0 +1,1 @@
+You have to create a div and inject it into a page which contains a heading. Whenever someone clicks on the div , it should be converted into an editable item. Whenever user clicks away (blur event), save the note into the local storage. 
