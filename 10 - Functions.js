@@ -6,7 +6,7 @@ const name = "Tushar";
 
 console.log(`Happy Birthday ${name}`);
 
-function greet(name="Tushar") {
+function greet(name = "Tushar") {
     // console.log(`Happy Birthday ${name}`);
     greeting = `Happy Birthday ${name}`;
     return greeting;
@@ -20,7 +20,7 @@ console.log(greeting);
 
 //  Assingning a function to a variable.
 
-let g = function (name) { // The function is now called using the variable as it does not ahve any name
+let g = function (name) { // The function is now called using the variable as it does not have any name
     return `Hii ${name}`;
 }
 val = g("Tushar Dimri");
@@ -38,7 +38,7 @@ console.log(myobj.name);
 console.log(myobj.game());
 
 
-// Traversing a loop using forEach function
+// Traversing an array using forEach function
 
 arr = [12, "TD", "69", true, false, "Machine Learning"];
 arr.forEach(function(element, index, array) {

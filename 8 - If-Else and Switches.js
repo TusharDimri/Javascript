@@ -17,7 +17,7 @@ else{
     console.log("Age is less than 18");
 }
 
-// If we use if rather than else if ,call conditions are checked even if the condition is satisfied
+// If we use if rather than else if ,all conditions are checked even if the condition is satisfied
 
 if (age2 == 69){
     console.log("Age is 69");
@@ -28,7 +28,7 @@ if (age == 18){
 }
 
 else{
-    console.log("Age is less than 18");
+    console.log("Age is neither 18 nor 69");
 }
 
 // == Compare only value not type and value. We use === to compare both type and value
@@ -40,6 +40,7 @@ console.log(a === b); // false as a is a number and b is a string
 // != compare only value while !== compare both type and value 
 console.log(a != b); // false as both a and b have the same value i.e. 69
 console.log(a !== b);  // true as both a and b have different data types
+
 
 // Using Conditional Statements to check whether a variable exists or not
 

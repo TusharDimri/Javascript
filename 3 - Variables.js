@@ -10,7 +10,7 @@ var last = `D'Costa`
 console.log(name);
 console.log(last);
 
-var channel; //     We just declared a variable without any value
+var channel;  // We just declared a variable without any value
 console.log(channel);
 
 var age = 34; // This is an Integer
@@ -24,18 +24,18 @@ Rules for naming Javascript variables :-
 2. Variable name can contain letters, numbers, _ and $ only.
 3. Variable names are Case Sensitive.
 4. Variable names can start with _. Also the variable that starts with _ are private variables.
-5. It is not recommended (although you can use rr start with) to use $ with variable names as jquery uses $ and it may create confusion.
+5. It is not recommended (although you can use $ start with) to use $ with variable names as jquery uses $ and it may create confusion.
 
 */
 
 const nm = "Tushar Dimri";
 // We can change value of variables declared using var keyword but we cannot change the value of the variable that is declared using const keyword.
 
-// nm = "Tushar"; will raise an error as nm is declared using const keyword.
+// nm = "Tushar";  // Will raise an error as nm is declared using const keyword.
 
 // We can't just declare a const variable we need to assign a value to it at the time of declaration or an exception will be raised
 
-// const n1 ; will raise an exception.
+// const n1 ;  // Will raise an exception.
 
 // let keyword has only block level scope while var has global scope.
 // We cannot use a varibale declared using let keyword outside its block

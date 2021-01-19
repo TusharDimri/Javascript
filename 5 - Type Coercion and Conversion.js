@@ -28,7 +28,7 @@ console.log(date, (typeof date));
 date = String(date);
 console.log(date, (typeof date));
 
-let arr = [1,2,3,4,5];
+let arr = [1, 2, 3, 4, 5];
 console.log(arr, (typeof arr));
 console.log(arr.length);
 
@@ -37,7 +37,7 @@ arr = String(arr);
 console.log(arr, (typeof arr));
 console.log(arr.length); 
 
-// Conversion using to Strimg Method:-
+// Conversion using to String Method:-
 let i = 69;
 console.log(i, (typeof i));
 console.log(i.toString());
@@ -69,6 +69,7 @@ console.log(arr1, (typeof arr1));
 
 let num1 = '34';
 console.log(num1, (typeof num1));
+// num1 = Number(num1);
 num1 = parseInt(num1);
 console.log(num1, (typeof num1));
 
@@ -95,7 +96,7 @@ let mystr1 = "698";
 let mynum1 = 34;
 
 console.log(mystr1 + mynum1); // Check Output
-// As we can deduce from the outupt, the number value is converted to string and is concatenated with the string value.
+// As we can deduce from the output, the number value is converted to string and is concatenated with the string value.
 
 
 let mystr2 = Number("698");

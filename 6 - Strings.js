@@ -9,8 +9,8 @@ html = "<h1>This is my heading</h1>" + "<p>This is my Paragraph</p>";
 html = html.concat(' THIS', ' IS', ' ME' ) ;
 console.log(html);
 
-// Common String Functions :-
 
+// Common String Functions :-
 
 console.log(html.length);
 

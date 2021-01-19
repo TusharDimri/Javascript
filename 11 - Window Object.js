@@ -1,6 +1,6 @@
 console.log("We are at Tutorial 11");
 
-//  Using Javascript Window Object
+// Using Javascript Window Object
 
 let a = window; // This is a window object 
 

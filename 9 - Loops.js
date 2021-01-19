@@ -48,7 +48,7 @@ Even if the condition as false, do-while loop works at least once before the con
 // Using break and continue statements  in Javascript
 for (let a=0; a<=100; a++){
     console.log(a);
-    if(a === 10){
+    if(a == 10){
         break;
     }
 }

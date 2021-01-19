@@ -4,7 +4,7 @@ let marks = [23, 45, 56, 96, 72];
 console.log(marks);
 const fruits = ["Orange", "Apple", "Banana"]
 console.log(fruits);
-const mixed = ["str", 69, [3, 5] ];
+const mixed = ["str", 69, [3, 5]];
 console.log(mixed);
 
 // Creating a Javascript Array using Array Constructor
@@ -36,19 +36,19 @@ console.log(value);
 
 marks.push(69);
 console.log(marks);
-// Adds element to the last index of the array (Woks exactly like Python append)
+// Adds element to the last index of the array (Works exactly like Python append)
 
 marks.unshift(72);
 console.log(marks);
-// Adds element sat the 0th index of the array
+// Adds element at the 0th index of the array
 
 marks.pop();
 console.log(marks);
-// Removes the element at the last index of the array
+// Removes the element at the last index of the array and returns it
 
 marks.shift();
 console.log(marks);
-// Removes the element at the 0th index of the array
+// Removes the element at the 0th index of the array and returns it
 
 marks.splice(1, 2);
 console.log(marks);
