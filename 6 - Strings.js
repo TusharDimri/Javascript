@@ -33,6 +33,7 @@ console.log(html.endsWith('ME'));
 console.log(html.includes("heading"));
 // includes() returns true if given string is a subset of the specified string, else it returns false
 
+// Practice More.
 
 console.log(html.substring(0,51));
 // substring() returns the substring starting from first position(0) to last position - 1(50) in the string 
